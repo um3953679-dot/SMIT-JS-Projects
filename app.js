@@ -1,45 +1,60 @@
-// Task no 1 //
+// Question 1 //
 
-let fullname = "muhammadumer";
-console.log(fullname);
+let num = 10;
 
-let age = 16;
+num++;
+
+console.log(num);
+
+// Question 2 //
+
+let count = 20;
+
+count--;
+
+console.log(count);
+
+// Question 3 //
+
+let age = 18;
+
+++age;
+
 console.log(age);
 
-let price = 2000;
-console.log(price);
+//Question 4 //
 
-let marks = 100;
+let marks = 95;
+
+--marks;
+
 console.log(marks);
 
-let hours = 24;
-console.log(hours);
+// Question 5 //
 
-//Task no 2 //
+let x = 5;
 
-//Legal variable name //
+console.log(x++);
 
-let studentName = "Umer";
-let _marks = 85;
-let $price = 2500;
+console.log(x);
 
+// Question 6 //
 
-//illegal variable name //
+console.log(10 + 5 * 2);
 
-// let 1student = "Umer";   // Number se start nahi ho sakta
-// let my-name = "Ali";     // Hyphen (-) allow nahi hai
-// let var = 100;           // Reserved keyword hai
+// Question 7 //
 
+console.log((10 + 5) * 2);
 
-//Task no 3 Mathematic Exprssion //
+// Bonus Question //
 
+let num1 = 25;
+let num2 = 5;
 
-let num1 = 100;
-let num2= 20;
-console.log(num1 + num2); // addition
-console.log(num1 - num2); // subtraction
-console.log(num1 * num2); // multiplication
-console.log(num1 / num2); // division
-console.log(num1 % num2); // modulus
+console.log("Addition:", num1 + num2);
+console.log("Subtraction:", num1 - num2);
+console.log("Multiplication:", num1 * num2);
+console.log("Division:", num1 / num2);
+console.log("Modulus:", num1 % num2);
 
 
